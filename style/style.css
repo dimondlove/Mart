@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,600italic,700,800,400italic);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header-top-section {
+	background: #1abc9c;
+}
+
+.material-icons.md-14 {
+	font-size: 14px;
+}
+
+.header-top-wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+
+.header-top-wrapper ul {
+	list-style: none;
+}
+
+.header-top-wrapper ul li {
+	float: left;
+	padding: 9px 15px 9px 0;
+}
+
+.header-top-wrapper ul li a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	text-decoration: none;
+}
